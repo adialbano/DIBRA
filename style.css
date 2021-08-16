@@ -1,0 +1,178 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; */
+    font: 15px 1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;   /* moves to the middle  */
+    overflow: hidden;  /* nuk te nxjerr ashensor kur text box esht shum i vogel */
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    padding-top: 30px;
+    min-width: 70px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 30px 20px;
+}
+
+header #logo {
+    float: left;
+}
+
+header #logo h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#show-case{
+    min-height: 400px;
+    background: url('/img/showcase.jpg') no-repeat 0 -500px, rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+#show-case h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#show-case p{
+    font-size: 20px;
+}
+
+/* #newsletter {
+    padding: 15px;
+    color: white;
+    background-color: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type='email']{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button1 {
+    height: 38px;
+    background-color: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+} */
+
+#services h1{
+    text-align: center;
+    font-size: 60px;
+}
+#services{
+    margin-top: 20px;
+}
+
+#services h3 {
+    font-size: 40px;
+}
+
+#services .box{
+    float: left;
+    width: 25%;
+    padding: 3%;
+    text-align: center;
+    
+}
+
+#services .border {
+    padding: 10px;
+    border: 3px solid;
+    padding-bottom: 50px;
+}
+
+
+#services .learnBtn {
+    width: auto;
+    height: 55px;
+    padding: 15px;
+    font-size: 15px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#services .learnBtn:hover {
+    background-color: #000000;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.85);
+    text-align: center;
+    min-height: 30px;
+}
+
+footer #copy{
+    float: right;
+    /* padding: 0 10px 10px 10px; */
+}
+
+footer #social{
+    float: left;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px 20px 10px;
+}
+
+footer .social-logo{
+    width: 15px;
+}
